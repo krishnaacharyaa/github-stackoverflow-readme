@@ -1,0 +1,28 @@
+:root {
+	--foreground: #ffffffe6;
+	--background: #12181b;
+	--gold-badge-title: #feedaa;
+	--gold-badge-subtitle: #f0b067;
+	--silver-badge-title: #e2e0e0;
+	--silver-badge-subtitle: #b6b6b6;
+	--bronze-badge-title: #e8a766;
+	--bronze-badge-subtitle: #cd7d5d;
+	--title-gradient-1: rgb(253, 203, 53);
+	--title-gradient-2: rgb(247, 138, 60);
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		--background: #ffffffe6;
+		--foreground: #4a4a4a;
+
+		--gold-badge-title: #e7af00;
+		--gold-badge-subtitle: #e3ac07;
+		--silver-badge-title: #8a8a8a;
+		--silver-badge-subtitle: #939393;
+		--bronze-badge-title: #cd7343;
+		--bronze-badge-subtitle: #d38155;
+		--title-gradient-1: rgb(219, 164, 0);
+		--title-gradient-2: rgb(247, 138, 60);
+	}
+}

@@ -1,0 +1,63 @@
+<body>
+	<div class="card col">
+		<div class="title" id="profileTitle">
+			{{username}}'s stackoverflow profile
+		</div>
+		<div class="row">
+			<g>
+				<div class="logo">
+					{{{stackoverflowLogo}}}
+				</div>
+			</g>
+			<div class="stats">
+				<div class="stats-container">
+					<div class="stats-title" id="reputation">{{reputation}}</div>
+					<div class="stats-subtitle">Reputation</div>
+				</div>
+				<div class="stats-container">
+					<div class="stats-title" id="reach">{{peopleReached}}</div>
+					<div class="stats-subtitle">Reach</div>
+				</div>
+				<div class="stats-container">
+					<div class="stats-title" id="answers">{{answers}}</div>
+					<div class="stats-subtitle">Answers</div>
+				</div>
+			</div>
+		</div>
+		<div class="row badge">
+			<div class="badge-container">
+				<g>
+					<div class="badge-svg">{{{goldBadgeSvg}}}</div>
+				</g>
+				<div class="col">
+					<div class="badge-title badge-title-gold" id="goldBadges">
+						{{goldBadges}}
+					</div>
+					<div class="badge-subtitle badge-subtitle-gold">Gold Badges</div>
+				</div>
+			</div>
+			<div class="badge-container">
+				<g>
+					<div class="badge-svg">{{{silverBadgeSvg}}}</div>
+				</g>
+				<div class="col">
+					<div class="badge-title badge-title-silver" id="silverBadges">
+						{{silverBadges}}
+					</div>
+					<div class="badge-subtitle badge-subtitle-silver">Silver Badges</div>
+				</div>
+			</div>
+			<div class="badge-container">
+				<g>
+					<div class="badge-svg">{{{bronzeBadgeSvg}}}</div>
+				</g>
+				<div class="col">
+					<div class="badge-title badge-title-bronze" id="bronzeBadges">
+						{{bronzeBadges}}
+					</div>
+					<div class="badge-subtitle badge-subtitle-bronze">Bronze Badges</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>

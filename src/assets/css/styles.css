@@ -1,0 +1,120 @@
+body,
+h1,
+p,
+ul {
+	margin: 0;
+	padding: 0;
+	font-family: "Inter", Helvetica;
+}
+
+.card {
+	margin-top: 4px;
+	margin-left: 4px;
+	align-items: flex-start;
+	gap: 32px;
+	padding: 16px;
+	width: max-content;
+	height: max-content;
+	background-color: var(--background);
+	border-radius: 20px;
+	box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+	background: linear-gradient(
+		180deg,
+		var(--title-gradient-2) 0%,
+		var(--title-gradient-1) 100%
+	);
+	-webkit-background-clip: text !important;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 600;
+	color: transparent;
+	font-size: var(--title-font);
+}
+
+/* Stats Section */
+.logo {
+	width: 60px;
+	height: 60px;
+	margin-right: 32px;
+}
+.stats {
+	display: flex;
+	align-items: flex-start;
+	gap: 16px;
+	width: 100%;
+	flex: 0 0 auto;
+}
+
+.stats-container {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 4px;
+	flex-grow: 1;
+}
+
+.stats-title {
+	font-weight: var(--stats-title-weight);
+	color: var(--foreground);
+	font-size: var(--stats-title-font);
+}
+
+.stats-subtitle {
+	font-weight: var(--stats-subtitle-weight);
+	color: var(--foreground);
+	font-size: var(--stats-subtitle-font);
+}
+
+/* Badge Section */
+.badge {
+	gap: 16px;
+}
+.badge-container {
+	display: inline-flex;
+	gap: 8px;
+}
+.badge-svg {
+	width: 40px;
+	height: 40px;
+}
+
+.badge-title {
+	font-size: var(--badge-title-font);
+	font-weight: var(--badge-title-weight);
+}
+.badge-subtitle {
+	font-size: var(--badge-subtitle-font);
+	font-weight: var(--badge-subtitle-weight);
+}
+
+.badge-title-gold {
+	color: var(--gold-badge-title);
+}
+.badge-subtitle-gold {
+	color: var(--gold-badge-subtitle);
+}
+.badge-title-silver {
+	color: var(--silver-badge-title);
+}
+.badge-subtitle-silver {
+	color: var(--silver-badge-subtitle);
+}
+.badge-title-bronze {
+	color: var(--bronze-badge-title);
+}
+.badge-subtitle-bronze {
+	color: var(--bronze-badge-subtitle);
+}
+
+/* Utitlty */
+.row {
+	display: flex;
+	align-items: center;
+}
+.col {
+	display: flex;
+	flex-direction: column;
+}

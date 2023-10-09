@@ -1,0 +1,14 @@
+:root {
+	/* font sizes */
+	--title-font: 22px;
+	--stats-title-font: 22px;
+	--stats-subtitle-font: 14px;
+	--badge-title-font: 18px;
+	--badge-subtitle-font: 14px;
+
+	/* font weights */
+	--stats-title-weight: 600;
+	--stats-subtitle-weight: 400;
+	--badge-title-weight: 600;
+	--badge-subtitle-weight: 400;
+}
