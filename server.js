@@ -13,7 +13,7 @@ app.get("/", async (req, res) => {
 			return res.status(400).send("userId parameter is required");
 		}
 
-		const url = `https://stackoverflow.com/users/${userId}`;
+		const url = `https://stackoverflow.com/users/${userId}?tab=profile`;
 
 		const { data: rawUserData } = await axios.get(url);
 

@@ -8,9 +8,9 @@ function extractStats(html) {
 
 	return {
 		username: $(".flex--item.mb12.fs-headline2.lh-xs").text().trim(),
-		reputation: $(".fs-body3.fc-dark").eq(0).text().trim(),
-		peopleReached: $(".fs-body3.fc-dark").eq(1).text().trim(),
-		answers: $(".fs-body3.fc-dark").eq(2).text().trim(),
+		reputation: $("div.fs-body3.fc-black-600").eq(0).text(),
+		peopleReached: $("div.fs-body3.fc-black-600").eq(1).text(),
+		answers: $("div.fs-body3.fc-black-600").eq(2).text(),
 		goldBadges: badgeDivs.eq(0).text().trim(),
 		silverBadges: badgeDivs.eq(1).text().trim(),
 		bronzeBadges: badgeDivs.eq(2).text().trim(),
